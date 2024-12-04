@@ -12,7 +12,6 @@ export default function Navbar() {
             <nav id="navigation">
                 <ul>
                     <li><a className="logo" href="/">&lt;/AH&gt;</a></li>
-                    {/* <li><a href="/about">About</a></li> */}
                     <li><a href="/experience">Experience</a></li>
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/skills">Skills</a></li>
@@ -30,7 +29,6 @@ export default function Navbar() {
                 
                 {navOpen && (<ul className="animate__animated animate__slideInDown">
                     <li><a className="logo" href="/">&lt;/AH&gt;</a></li>
-                    {/* <li><a href="/about">About</a></li> */}
                     <li><a href="/experience">Experience</a></li>
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/skills">Skills</a></li>
