@@ -1,6 +1,6 @@
-import ModereLogo from "../../assets/modere-logo-black.png"
-import EngagexLogo from "../../assets/engagex_logo.png"
-import VivintLogo from "../../assets/vivint_logo.png"
+import ModereLogo from "../../assets/modere-logo-black.png";
+import EngagexLogo from "../../assets/engagex_logo.png";
+import VivintLogo from "../../assets/vivint_logo.png";
 
 import { VscLocation } from "react-icons/vsc";
 

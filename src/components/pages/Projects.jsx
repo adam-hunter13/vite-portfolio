@@ -1,7 +1,7 @@
-import Bookshelf from "../../assets/bookshelf.png"
-import NaturalDisaster from "../../assets/Natural-Disaster.png"
-import Destination from "../../assets/Destination-App.png"
-import Weather from "../../assets/Weather-App.png"
+import Bookshelf from "../../assets/bookshelf.png";
+import NaturalDisaster from "../../assets/Natural-Disaster.png";
+import Destination from "../../assets/Destination-App.png";
+import Weather from "../../assets/Weather-App.png";
 
 export default function Projects() {
 

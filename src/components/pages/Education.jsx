@@ -1,5 +1,5 @@
-import UvuLogo from "../../assets/uvu_logo.png"
-import DvMtnLogo from "../../assets/devmountain_logo.png"
+import UvuLogo from "../../assets/uvu_logo.png";
+import DvMtnLogo from "../../assets/devmountain_logo.png";
 
 export default function Education() {
 

@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
+import { IoDocumentText } from "react-icons/io5";
 
 export default function Contact() {
 
@@ -35,6 +36,10 @@ export default function Contact() {
                 <div className="contact-icon-container">
                 <a href="https://www.facebook.com/profile.php?id=100088192913707" target="_blank"><FaFacebook className="contact-icon"/></a>
                     <p><a href="https://www.facebook.com/profile.php?id=100088192913707" target="_blank">facebook.com/</a></p>                
+                </div>
+                <div className="contact-icon-container">
+                <a href="https://docs.google.com/document/d/1rczs8zODVEvMAkOq_Zwj_B_NED_0lTtJT-JCTRAWfvs/edit?tab=t.0" target="_blank"><IoDocumentText className="contact-icon"/></a>
+                    <p><a href="https://docs.google.com/document/d/1rczs8zODVEvMAkOq_Zwj_B_NED_0lTtJT-JCTRAWfvs/edit?tab=t.0" target="_blank">My Resume</a></p>                
                 </div>
             </div>
         </>
