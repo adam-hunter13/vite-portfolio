@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav id="navigation">
+            <nav id="navigation top">
                 <ul>
                     <li><Link to="/" className="logo">&lt;/AH&gt;</Link></li>
                     <li><Link to="/experience">Experience</Link></li>
@@ -20,7 +20,7 @@ export default function Navbar() {
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
-            <nav id="mobile-navigation">
+            <nav id="mobile-navigation top">
                 <div 
                     className="mobile-icon-container"
                     onClick={() => setNavOpen(!navOpen)}

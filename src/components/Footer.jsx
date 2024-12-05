@@ -14,7 +14,7 @@ export default function Footer() {
                     <li><a href="/education">Education</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
-                <button><a href="#navigation"><HiChevronDoubleUp className="to-top"/></a>
+                <button><a href="#top"><HiChevronDoubleUp className="to-top"/></a>
                 </button>
             </div>
         </>
