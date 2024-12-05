@@ -12,9 +12,9 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
-      <div className="page-container">
-        <Router>
+      <Router>
+        <Navbar />
+        <div className="page-container">
           <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route path="/experience" element={<Experience />}/>
@@ -23,9 +23,9 @@ export default function App() {
             <Route path="/education" element={<Education />}/>
             <Route path="/contact" element={<Contact />}/>
           </Routes>
-        </Router>
-      </div>
-      <Footer />
+        </div>
+        <Footer />
+      </Router>
     </>
   )
 }
