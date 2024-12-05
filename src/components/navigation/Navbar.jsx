@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 
@@ -11,12 +12,12 @@ export default function Navbar() {
         <>
             <nav id="navigation">
                 <ul>
-                    <li><a className="logo" href="/">&lt;/AH&gt;</a></li>
-                    <li><a href="/experience">Experience</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/skills">Skills</a></li>
-                    <li><a href="/education">Education</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="/" className="logo">&lt;/AH&gt;</Link></li>
+                    <li><Link to="/experience">Experience</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/education">Education</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <nav id="mobile-navigation">
@@ -28,12 +29,12 @@ export default function Navbar() {
                 </div>
                 
                 {navOpen && (<ul className="animate__animated animate__slideInDown">
-                    <li><a className="logo" href="/">&lt;/AH&gt;</a></li>
-                    <li><a href="/experience">Experience</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/skills">Skills</a></li>
-                    <li><a href="/education">Education</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="/" className="logo">&lt;/AH&gt;</Link></li>
+                    <li><Link to="/experience">Experience</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/education">Education</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>)}
             </nav>
         </>
