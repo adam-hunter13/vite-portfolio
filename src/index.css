@@ -332,6 +332,12 @@ hr {
   font-weight: 500;
   margin: 0;
 }
+.experience-middle ul {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  line-height: 1.5;
+}
 /*******************     PROJECTS PAGE     *******************/
 .projects-container {
   width: 100%;

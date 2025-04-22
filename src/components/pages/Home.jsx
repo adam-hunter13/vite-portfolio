@@ -17,7 +17,7 @@ export default function Home() {
                 </div>
                 <div className="home-hero animate__animated animate__fadeinup">
                     <p className="home-title">Frontend Developer</p>
-                    <p className="home-description">I&apos;m Adam Hunter, a frontend developer. I collaborate with others to help build appealing and responsive web pages. Currently I work for <a href="https://www.modere.com" target="_blank">Modere</a> as a Jr. Web Content Developer for North America.</p>
+                    <p className="home-description">I&apos;m Adam Hunter, a frontend developer. I collaborate with others to help build appealing and responsive web pages. I am currently seeking new positions as a Frontend Developer.</p>
                 </div>
             </div>
             <Experience />
