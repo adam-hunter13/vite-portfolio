@@ -211,12 +211,18 @@ body {
   margin: 0;
   padding: 2rem 0;
 }
+.home-description-bold {
+  font-size: 1.8rem;
+  line-height: 1.25;
+  margin: 0;
+  font-weight: 600;
+}
 .home-description {
   font-size: 1.5rem;
   line-height: 1.25;
   width: 46%;
   margin: 0;
-  padding: 0 0 2rem 0;
+  padding: 2rem 0 2rem 0;
 }
 .home-description a {
   color: var(--text-color-light);
