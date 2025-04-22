@@ -745,7 +745,7 @@ hr {
   /* Home Page */
   .home-description {
     width: 100%;
-    text-align: justify;
+    /* text-align: justify; */
   }
   /* Experience Page */
   .experience-top {
