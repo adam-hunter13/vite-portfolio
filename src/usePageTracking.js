@@ -5,6 +5,8 @@ export default function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
+    console.log("Tracking page view:", location.pathname);
+    
     if (typeof window !== "undefined" && window.gtag) {
       window.gtag("event", "page_view", {
         page_path: location.pathname + location.search,
