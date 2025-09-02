@@ -7,15 +7,15 @@ import Skills from "./components/pages/Skills";
 import Education from "./components/pages/Education";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
-import usePageTracking from "./usePageTracking";
+import PageTracker from "./PageTracking";
 
 export default function App() {
-  usePageTracking();
 
   return (
     <>
       <Router>
         <Navbar />
+        <PageTracker />
         <div className="page-container">
           <Routes>
             <Route exact path="/" element={<Home />}/>
